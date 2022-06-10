@@ -1,0 +1,18 @@
+.posts-wrapper {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+.posts-single {
+    flex-basis: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.posts-single__title {
+    background-color: aqua;
+    height: 65px;
+    border-radius: 3px;
+}
